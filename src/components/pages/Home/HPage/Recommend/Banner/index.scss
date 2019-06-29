@@ -1,0 +1,42 @@
+.module{
+    background: #fff;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+    height:3.1rem;
+    overflow: hidden;
+    margin-top: 0.4rem;
+    .blur{
+        -webkit-filter: blur(35px);
+        -moz-filter: blur(35px);
+        -o-filter: blur(35px);
+        -ms-filter: blur(35px);
+        filter: blur(35px);
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+        background: url("http://movie.miguvideo.com/publish/i_www/image/70/734/308.jpg")
+    }
+    .scoll-Pic{
+        padding-top: 30px;
+    }
+}
+.swiper-slide-shadow-left{
+    opacity: 1.99467; transition-duration: 0ms;
+}
+.swiper-slide-shadow-right{
+    opacity: 0; transition-duration: 0ms;
+}
+.swiper-container {
+    width: 100%;
+  }
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    img{
+        height: 2.4rem;
+    }
+  }

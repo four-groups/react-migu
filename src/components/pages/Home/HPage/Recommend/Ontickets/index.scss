@@ -1,0 +1,67 @@
+.module1{
+    margin-bottom: 10px;
+    background: #fff;
+    border-top: 1px solid #f1f1f1;
+    border-bottom: 1px solid #f1f1f1;
+    position: relative;
+    margin-bottom: 60px;
+    .module-name {
+        height: 45px;
+        line-height: 45px;
+        background: url(http://movie.miguvideo.com/lovev/miguMovie/images/icon/module-icon.png) no-repeat 0 11px;
+        background-size: 3px 23px;
+        padding-left: 8px;
+        padding-right: 12px;
+    }
+    .module-con{
+        width:100%;
+        height:auto;
+    }
+    .swiper-slide{
+        width:1.2rem;
+        .content-pic{
+            position: relative;
+            img{
+                width:100%;
+                border-left: none;
+                height: 1.75rem;
+            }
+        }
+    }
+}
+.vertical-pic{
+    
+    overflow: visible;
+}
+.vertical-pic li{
+    padding-bottom: 5px;
+    .content-intro{
+        p{
+            line-height: 1.7em;
+            padding-left:12px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+    }
+    .font-14{
+        font-size: 14px !important;
+    }
+    .font-13{
+        font-size: 13px !important;
+    }
+    .grey{
+        color: #666;
+    }
+    .light-grey{
+        color: #999;
+    }
+}
+.module-con .swiper-container .swiper-wrapper .swiper-slide .content-pic img{
+    height: 1.75rem!important;
+}
+.ticket{
+    overflow: visible!important;
+        list-style: none;
+        margin-top: 10px;
+}

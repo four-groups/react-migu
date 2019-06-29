@@ -1,0 +1,19 @@
+.specials{
+    margin-bottom:85px;
+    .specialsMain{
+        margin-bottom:15px;
+        position: relative;
+        .title{
+            position: absolute;
+            left: 12px;
+            right: 12px;
+            bottom: 12px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            color: #fff;
+            font-size: 14px !important;
+        }
+    }
+    
+}

@@ -1,0 +1,121 @@
+.mineapp{
+    width:3.75rem;
+    position:relative;
+    margin:auto;
+    background:#f2f5f5;
+}
+.index{
+    width:100%;
+    height:100%;
+}
+.main{
+    position: relative;
+    box-sizing: border-box;
+    height:100%;
+    background:#f2f5f5;
+    border-bottom:1px solid transparent;
+    img{
+        z-index:12;
+        height:100%;
+    }
+}
+.header{
+    padding:25px 0;
+    width:100%;
+    height:15px;
+    border-bottom:1px solid #dfdfdf;
+    background:rgb(255, 255, 255);
+    box-sizing:border-box;
+    position:relative;
+}
+
+.header .left_icon{
+    width:.277778rem;
+    height:25px;
+    position:absolute;
+    left:20px;
+    top:50%;
+    transform:translateY(-50%);
+    color:black;
+    font-size:25px;
+}
+.header .title_text{
+    display:inline-block;
+    text-align:center;
+    font-size:15px;
+    color:#424242;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.header .tel_icon{
+    width:35px;
+    height:18px;
+    position:absolute;
+    right:5px;
+    top:50%;
+    transform:translateY(-50%);
+    color:black;
+    font-size:23px;
+
+}
+.main .content{
+    width:100%;
+    position:absolute;
+    overflow: auto;
+    top:1rem;
+    .ul{
+        
+        margin-top:.3rem;
+    }
+}
+.content .item{
+    position:relative;
+    // margin-top:8px;
+    background-color:#fff;
+}
+.item:last-child :after{
+    content:"";
+    height:20px;
+    display:block;
+}
+.item_list{
+    background:#fff;
+    padding:20px 0
+}
+.top_list li{
+    border-bottom:1px solid #ececec;
+}
+.top_list .title{
+    display: block;
+    color:#4a4a4a;
+    font-size:15px;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow:hidden;
+    height:30px;
+    line-height:20px;
+}
+
+.connect-bt{
+    position:fixed;
+    left:0;
+    bottom:0;
+    height:52px;
+    border-top:1px solid #dfdfdf;
+    background:#fff;
+    width:100%;
+    text-align:center;
+    font-size:14px;
+    z-index: 20;
+    .text{
+        display:inline-block;
+        line-height:1;
+        position:absolute;
+        width:85%;
+        top:50%;
+        left:0;
+        transform:translateY(-50%);
+    }
+}

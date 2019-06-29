@@ -1,0 +1,32 @@
+.movbox{
+    display:flex;
+    padding:10px 10px 20px 10px;
+    .movleft{
+        width:95px;
+        height:143px;
+        img{
+            width:100%;
+            height:100%;
+        }
+    }
+    .img1{
+        width:100%!important;
+        height: 1rem;
+    }
+    .movright{
+        margin-left:20px;
+        h1{
+            color:#000;
+            margin-bottom:30px;
+        }
+        p{
+            margin:10px;
+            span{
+                color:red;
+            }
+        }
+    }
+}
+.say{
+    padding:10px 10px 0 10px;
+}

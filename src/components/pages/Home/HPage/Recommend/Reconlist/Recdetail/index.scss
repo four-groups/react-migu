@@ -1,0 +1,89 @@
+.module-name {
+    height: 45px;
+    line-height: 45px;
+    background: url(http://movie.miguvideo.com/lovev/miguMovie/images/icon/module-icon.png) no-repeat 0 11px;
+    background-size: 3px 23px;
+    padding-left: 8px;
+    padding-right: 12px;
+}
+.list-title{
+    position: relative;
+    font-size: 15px;
+    color: #1a1a1a;
+    padding: 10px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.clearfix:after {
+    display: table;
+    content: " ";
+    clear: both;
+}
+.ul-list-wrap li{
+    position: relative;
+    border-right: 1px solid #fff;
+    float: left;
+    width: 0.94rem;
+}
+.text-center {
+    text-align: center;
+}
+.real-name {
+    font-size: 13px;
+    padding-top: 5px;
+    color: #4d4d4d;
+}
+.actor-name {
+    font-size: 12px;
+    color: #666;
+    padding-bottom: 10px;
+}
+.img-responsive{
+    max-width: 100%;
+}
+.swiper-slide img{
+    height: 1.2rem;
+    width: 100%;
+}
+.detailBox{
+    width: 100%;
+}
+#img1{
+    height: 1.2rem!important;
+}
+#img{
+    width: 1rem;
+    height: 0.7rem!important;
+}
+/* .video{
+    margin-bottom: 20px;
+} */
+.page-head .movie-info-wrap .movie-info .mivie-info-list{
+    float: right;
+}
+.movie-info .pull-left img{
+    width:1.2rem;
+}
+.movie-info .pull-left{
+    top:0;
+}
+.movie-text-list{
+    font-size: 13px;
+}
+.swiper-wrapper img{
+    margin-top:0;
+}
+.page-head p{
+    height: 30px;
+    line-height: 30px;
+    margin:0;
+}
+.movie-desc{
+    width:100%!important;
+    margin-top:40px;
+}
+.page-head{
+    padding-top:0!important;
+}
+.movie-text-list span{
+   margin:0!important;
+}

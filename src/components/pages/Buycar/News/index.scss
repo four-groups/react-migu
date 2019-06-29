@@ -1,0 +1,49 @@
+.loop-module4{
+    .loop-time4{
+        height: 35px;
+        line-height: 35px;
+        padding: 0 12px;
+        background: #efefef;
+    }
+    .module4{
+        margin-bottom: 10px;
+        background: #fff;
+        border-top: 1px solid #f1f1f1;
+        border-bottom: 1px solid #f1f1f1;
+        position: relative;
+        .module-name4{
+            height: 45px;
+            line-height: 45px;
+            background: url(http://movie.miguvideo.com/publish/i_www/resource/lovev/miguMovie/images/icon/module-icon.png) no-repeat 0 11px;
+            background-size: 3px 23px;
+            padding-left: 8px;
+            padding-right: 12px;
+            
+        }
+        .news-con4{
+            width:100%;
+            .news-title4{
+                width:66%;
+                font-size:14px;
+                margin-left:0.1rem;
+            }
+            .news-src4{
+                width:32%;
+                img{
+                    width:100%;
+                    height: 100%;
+                }
+            }
+            .timeWeb{
+                margin:.1rem;
+            }
+        }
+    }
+}
+.item-li{
+    margin-bottom:10px;
+    border-bottom:1px solid #ccc;
+}
+.display{
+    display: flex!important;
+}
